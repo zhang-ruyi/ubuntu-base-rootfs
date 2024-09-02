@@ -94,5 +94,8 @@ apt install gcc gdb tmux wget curl vim kmod -y
   resize2fs -M ${image_name}.img
   tar zcf ${image_name}.img.tar.gz ${image_name}.img
 ```
-
-ref: https://www.e-learn.cn/topic/314415
+Ref:
+* 基于6.11
+* commit id: 67784a74e258a467225f0e68335df77acd67b7ab
+* 基于defconfig增加必须的配置：.config
+* vscode remote gdb: launch.json
